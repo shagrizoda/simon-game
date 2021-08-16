@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-color: #B980F0;
+  background-image: url("backgroundImg.jpg");
+  image-resolution: snap;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#level-title {
+  font-family: 'Sancreek', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #31326F;
+  background-color: #E4EFE7;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 15px solid #FCD8D4;
+  /* border-color:#BEE5D3; */
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #DA0037;
+}
+
+.green {
+  background-color: #7ECA9C;
+}
+
+.blue {
+  background-color: #7C83FD;
+}
+
+.yellow {
+  background-color: #FFC107;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
